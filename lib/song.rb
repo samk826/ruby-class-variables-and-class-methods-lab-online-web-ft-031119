@@ -20,8 +20,8 @@ def self.count
 end
 
 def self.artists
-  @@artists.uniq
-end 
+  @@artists.uniq!
+end
 
 
 end
